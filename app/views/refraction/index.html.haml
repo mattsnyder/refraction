@@ -1,0 +1,7 @@
+= form_tag '/show' do
+  = field_set_tag do
+    = label_tag :host, 'Host IP'
+    = text_field_tag :host
+    = label_tag :bucket, 'Bucket Name'
+    = text_field_tag :bucket
+    = submit_tag "execute"
